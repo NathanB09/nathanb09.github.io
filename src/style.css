@@ -133,6 +133,9 @@ html, body {
   font-size: 30px;
   transform: translate(0, 120px);
   transition: 2s;
+}
+
+.home_arrow a {
   text-decoration: none;
   color: #23272a;
 }
