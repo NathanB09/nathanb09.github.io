@@ -1,0 +1,163 @@
+/* 
+========================================================
+ All patterns are downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+========================================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300i,400');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  top: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background: url('images/geometry.png') repeat;
+  scroll-behavior: smooth;
+}
+
+.nav {
+  top: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 300px;
+  list-style-type: none;
+  background: url('images/funky-lines.png') repeat;
+  color: #818181;
+  text-decoration: none;
+  /* box-shadow: 0 0 8px 5px #23272a; */
+  z-index: 2;
+}
+
+.nav_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.85);
+  height: 100%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #818181;
+  font-size: 20px;
+  margin-left: 40px;
+  padding: 5px 0;
+  transition: .2s;
+}
+
+.nav a:hover {
+  color: #7289da;
+}
+
+.nav a.active {
+  color: #7289da;
+}
+
+.social {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.social a {
+  color: #7289da;
+  margin: 10px;
+  font-size: 22px;
+}
+
+.img_name_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.img_name_wrapper img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #7289da;
+}
+
+.img_name_wrapper h1 {
+  margin: 0;
+  margin-top: 10px;
+  color: #7289da;
+}
+
+.img_name_wrapper h4 {
+  margin: 0px;
+  color: #818181;
+  font-weight: 100;
+  font-style: italic
+}
+
+.content {
+  margin-left: 300px;
+  color: 	#23272a;
+}
+
+.content_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content_section h1 {
+  font-size: 40px;
+}
+
+.home_heading1 {
+  transform: translate(-30%, 0);
+  transition: 2s;
+}
+
+.home_heading2 {
+  transform: translate(30%, 0);
+  transition: 2s; 
+}
+
+.home_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  transform: translate(0, 120px);
+  transition: 2s;
+  text-decoration: none;
+  color: #23272a;
+}
+
+.home_arrow:hover {
+  background-color: rgba(114,137,218, 0.3);
+}
+
+.about_wrapper {
+  width: 90%;
+  border: 3px solid #7289da;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #2c2f33;
+  transition: 0.4s;
+}
+
+.about_wrapper:hover {
+  box-shadow: 0 0 35px 0 #2c2f33;
+}
+
+.about_wrapper p {
+  margin: 20px 50px;
+  font-size: 20px;
+}
+
+.about_wrapper h1 {
+  margin: 15px 30px;
+}
