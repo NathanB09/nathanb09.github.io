@@ -27,7 +27,6 @@ html, body {
   background: url('images/funky-lines.png') repeat;
   color: #818181;
   text-decoration: none;
-  /* box-shadow: 0 0 8px 5px #23272a; */
   z-index: 2;
 }
 
@@ -184,5 +183,27 @@ html, body {
   width: 300px;
   height: 200px;
   margin: 20px;
+  border-radius: 5px;
   box-shadow: 0 0 10px 0 #000;
+  overflow: hidden;
+}
+
+.roomme {
+  background: url('images/roomme.svg') no-repeat center;
+  background-size: contain; 
+}
+
+.check {
+  background: url('images/check.png') no-repeat center;
+  background-size: cover; 
+}
+
+.picha {
+  background: url('images/picha.png') no-repeat center;
+  background-size: contain; 
+}
+
+.trackzy {
+  background: url('images/trackzy.png') no-repeat center;
+  background-size: contain; 
 }
